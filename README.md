@@ -1,2 +1,2 @@
-# fritzing-battery-box
-Battery box parts for use with Fritzing
+# fritzing-battery-mount
+Battery mount parts for use with Fritzing
