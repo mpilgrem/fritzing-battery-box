@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module fritzingVersion="0.9.2" moduleId="battery_box_6V_4xAA_v2_02498647-82c4-4893-98ec-51436e990e69">
+    <version>1</version>
+    <author>Adaptation by Mike Pilgrem</author>
+    <title>4 x AA Battery Box</title>
+    <label>VCC</label>
+    <date>2015-11-01</date>
+    <tags>
+        <tag>Battery</tag>
+        <tag>power supply</tag>
+        <tag>fritzing user</tag>
+    </tags>
+    <properties>
+        <property name="family">Battery</property>
+        <property name="voltage">6V</property>
+        <property name="brand">silver-yellow</property>
+    </properties>
+    <description>A 4 x AA battery box.</description>
+    <views>
+        <iconView>
+            <layers image="icon/battery_box_6V_4xAA_v2_icon.svg">
+                <layer layerId="icon"/>
+            </layers>
+        </iconView>
+        <breadboardView>
+            <layers image="breadboard/battery_box_6V_4xAA_v2_breadboard.svg">
+                <layer layerId="breadboard"/>
+            </layers>
+        </breadboardView>
+        <schematicView>
+            <layers image="schematic/battery_box_6V_4xAA_v2_schematic.svg">
+                <layer layerId="schematic"/>
+            </layers>
+        </schematicView>
+        <pcbView>
+            <layers image="pcb/battery_box_6V_4xAA_v2_pcb.svg">
+                <layer layerId="silkscreen"/>
+                <layer layerId="copper0"/>
+                <layer layerId="copper1"/>
+            </layers>
+        </pcbView>
+    </views>
+    <connectors>
+        <connector id="connector0" type="male" name="-">
+            <description>negative side</description>
+            <views>
+                <breadboardView>
+                    <p layer="breadboard" svgId="connector0pin" legId="connector0leg" />
+                </breadboardView>
+                <schematicView>
+                    <p layer="schematic" svgId="connector0pin" terminalId="connector0terminal"/>
+                </schematicView>
+                <pcbView>
+                    <p layer="copper1" svgId="connector0pin"/>
+                    <p layer="copper0" svgId="connector0pin"/>
+                </pcbView>
+            </views>
+        </connector>
+        <connector id="connector1" type="male" name="+">
+            <description>positive side</description>
+            <views>
+                <breadboardView>
+                    <p layer="breadboard" svgId="connector1pin" legId="connector1leg" />
+                </breadboardView>
+                <schematicView>
+                    <p layer="schematic" svgId="connector1pin" terminalId="connector1terminal"/>
+                </schematicView>
+                <pcbView>
+                    <p layer="copper1" svgId="connector1pin"/>
+                    <p layer="copper0" svgId="connector1pin"/>
+                </pcbView>
+            </views>
+        </connector>
+    </connectors>
+</module>

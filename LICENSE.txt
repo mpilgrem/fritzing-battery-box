@@ -1,12 +1,13 @@
 LICENCE
 
-All graphics and documentation of 'battery_box_6V_4xAA' are licensed under
+All graphics and documentation of 'battery_box_6V_4xAA' and
+'battery_box_6V_4xAA_v2' are licensed under
 Creative Commons Attribution-ShareALike 3.0 Unported.
 See http://creativecommons.org/licenses/by-sa/3.0/ for the full description.
 
 CREDIT fritzing/fritzing-parts
 
-The .fzp and .svg files are an adaptation of those for
+The .fzp and .svg files are adaptations of those for
 '4 x AAA Battery Mount.fzp' and jumper_3_100mil.svg published at GitHub
 repository fritzing/fritzing-parts under the following licence:
 
