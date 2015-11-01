@@ -6,7 +6,7 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    id="svg4192"
-   viewBox="0 0 169.19998 174.20556"
+   viewBox="0 0 169.2 174.20556"
    height="2.4195216in"
    y="0px"
    version="1.1"
@@ -715,7 +715,7 @@
        y2="33.984341"
        x2="172.36728"
        y1="33.984341"
-       x1="167.36728"
+       x1="166.32"
        id="connector1leg" />
     <line
        fill="none"
@@ -725,22 +725,22 @@
        y2="48.396797"
        x2="172.05493"
        y1="48.396797"
-       x1="167.05493"
+       x1="166.32"
        id="connector0leg" />
     <rect
        id="connector1pin"
        height="3"
        y="32.484341"
-       x="169.36728"
+       x="170"
        width="1"
-       fill="#8c8c8c" />
+       fill="none" />
     <rect
        id="connector0pin"
        height="3"
        y="46.896805"
-       x="169.05493"
+       x="170"
        width="1"
-       fill="#8c8c8c" />
+       fill="none" />
   </g>
   <g
      transform="matrix(-1,0,0,-1,163.82646,172.7645)"
