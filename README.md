@@ -14,3 +14,11 @@ Users can import their own parts. This project seeks to add the following parts:
   
 * battery_box_6V_4xAA_v2: a holder for four AA batteries, branded silver and
   yellow, with terminal wires close together
+
+## Examples
+
+### battery_box_6V_4xAA_v2
+
+![Image of breadboard view](images/Raspberry_Pi_2_Bulb_bb.png)
+
+![Image of schematic view](images/Raspberry_Pi_2_Bulb_schem.png)  
